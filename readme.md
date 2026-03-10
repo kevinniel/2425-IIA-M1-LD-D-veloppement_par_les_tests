@@ -1,11 +1,62 @@
 # Développement par les tests
 
-## Rappels
+Les tests permettent de tester des fonctionnalités et les résultats attendus. Ceux-ci sont énoncés souvent sous forme de "règles métier". Les tests permettent de **garantir** ces règles métier.
 
-<!-- Les types de tests -->
-- tests unitaires
-- tests fonctionnels
-- tests end to end (e2e) (de bout en bout)
+Le but des tests est théoriquement d'anticiper tous les cas de figure (ou presque).
+
+## tests unitaires
+
+On teste des unités, qui n'a souvent pas de dépendance.
+
+## tests fonctionnels
+
+Aussi appelés tests d'intégration, ils permettent de tester des fonctionnalités qui regroupent plusieurs unités.
+
+## tests e2e
+
+Aussi appelé end to end ou test "de bout en bout", il sert à simuler un comportement utilisateur réel.
+
+# TDD
+
+Test Driven Development : On écrit d'abord les tests, puis ensuite on fait le code.
+
+❓ quel est l'intérêt de faire les tests avant le code ?
+- on sait ce qu'on attend et donc on développe autour de ça
+- 
+
+# TP
+
+Jeu vidéo de glaces en PHP.
+- gestion de stock
+- goûts
+- type (cornet / pot etc...)
+- température
+
+Règles du jeu : 
+- les client viennent régulièrement dans le temps
+- on doit vendre le plus de glaces possibles
+- les clients demandent des goûts et des types (cornet / pot)
+- les clients peuvent commander plusieurs glaces
+- il faut prévoir du temps pour donner les glaces
+- une glace peut se périmer ou fondre
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 <!-- Les objectifs de tests -->
 - tests intégrité
