@@ -53,6 +53,9 @@ Lister moi tous les éléments dont vous allez avoir besoin dans le **code méti
 - attributs
 - etc...
 
+## TP2
+
+répéter : lister les vérificatios à faire pour chaque classe pour avoir un code ultra verrouillé !!! 
 
 
 
