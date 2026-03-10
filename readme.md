@@ -55,7 +55,15 @@ Lister moi tous les éléments dont vous allez avoir besoin dans le **code méti
 
 ## TP2
 
-répéter : lister les vérificatios à faire pour chaque classe pour avoir un code ultra verrouillé !!! 
+lister les tests & vérifications à faire pour chaque classe pour avoir un code ultra verrouillé !!!
+
+- On commence par la classe "Glace"
+
+-> vous pouvez aussi lister s'il manque des éléments (attributs, méthodes etc...)
+
+## TP3
+
+- implémenter TOUS LES TESTS unitaires pour valider ce qu'on a vu pendant le TP2.
 
 
 

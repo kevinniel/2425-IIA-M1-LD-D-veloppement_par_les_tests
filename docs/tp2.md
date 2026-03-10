@@ -1,0 +1,32 @@
+
+- Glace
+    - Identifiant
+        -> unique
+        -> string (le nom !)
+    - Temps de fabrication => temps de conception, réalisation, livraison etc...
+        -> integer (stocké en ms)
+        -> > 0
+        -> ! null
+    - Type (cornet ou pot)
+        -> Enum "contenant"
+        -> ! null
+    - prix d'achat
+        -> integer
+        -> > 0
+        -> < prix de vente
+        -> ! null
+    - prix de vente
+        -> integer
+        -> > 0
+        -> > prix d'achat
+        -> ! null
+    - date de péremption
+        -> Date
+        -> ! null
+    - Saveur
+        -> objet Saveur
+        -> ! null
+    <!-- - VerifierDatePeremption()
+    - SupprimerPerimes()
+    - Supprimer()
+    - Ajouter() -->
