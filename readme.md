@@ -63,7 +63,7 @@ lister les tests & vérifications à faire pour chaque classe pour avoir un code
 
 ## TP3
 
-- implémenter TOUS LES TESTS unitaires pour valider ce qu'on a vu pendant le TP2.
+Implémentez TOUS LES TESTS unitaires pour valider ce qu'on a vu pendant le TP2.
 
 
 
