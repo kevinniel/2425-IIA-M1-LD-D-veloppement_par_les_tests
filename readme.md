@@ -20,9 +20,12 @@ Aussi appelé end to end ou test "de bout en bout", il sert à simuler un compor
 
 Test Driven Development : On écrit d'abord les tests, puis ensuite on fait le code.
 
+
 ❓ quel est l'intérêt de faire les tests avant le code ?
 - on sait ce qu'on attend et donc on développe autour de ça
 - 
+
+
 
 # TP
 
@@ -40,7 +43,15 @@ Règles du jeu :
 - il faut prévoir du temps pour donner les glaces
 - une glace peut se périmer ou fondre
 
+## TP1
 
+Lister moi tous les éléments dont vous allez avoir besoin dans le **code métier** pour la réalisation de ce projet.
+- classes
+- méthodes
+- interfaces
+- abstractions
+- attributs
+- etc...
 
 
 

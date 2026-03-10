@@ -12,17 +12,23 @@ use TypeError;
 /*
 
 Liste des cas qu'on peut tester : 
-- TypeError
-- 
+- TypeError sur les arguments
+- résultats attendus
+- nombres négatifs
+- 0
+- le type de retour
+- la visibilité de la fonction
+- tester le nombre d'arguments passés dans l'appel de la fonction
 
 */
 final class CalculatorTest extends TestCase
 {
+
     public function testItAddsTwoIntegers(): void
     {
         $calculator = new Calculator();
 
-        self::assertSame(4, $calculator->add(2, null));
+        self::assertSame(4, $calculator->add(2, 2));
         self::assertSame(206000, $calculator->add(101000, 105000));
         self::assertSame(0, $calculator->add(-2, 2));
         self::assertSame(5, $calculator->add(2.25, 2.75));

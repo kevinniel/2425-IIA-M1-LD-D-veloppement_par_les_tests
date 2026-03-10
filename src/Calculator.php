@@ -2,22 +2,41 @@
 
 namespace App;
 
-final class Calculator
+interface Addition {
+    public function add();
+}
+
+class Calculator implements Addition
 {
-    public function add(int $left, int $right): int
+    private function add(int $left, int $right): int
     {
         return $left + $right;
     }
-    
-    // Si on veut ajouter une nouvelle fonction pour additionner 2 float : on en crée une nouvelle, on ne modifie pas l'existente !
-    // public function addFloat(float $left, float $right): float
-    // {
-    //     return $left + $right;
-    // }
 }
 
-// elle sert à enregistrer des choses en BDD
-// Un jour (dans 3 ans) un dev arrive, et il faut enregistrer un nombre à virgule
-// on change tous les int en float
+class CalculatorBis implements Addition
+{
 
-// est-ce que l'ancien code fonctionne toujours ?
+    private function add(int $left, int $middle, int $right): int
+    {
+        return $left + $middle + $right;
+    }
+}
+
+
+class Test {
+
+    public int $a = 1;
+    public int $b = 2;
+    public int $c = 3;
+
+    private Calculator $calculator;
+
+    public function toto() {
+        // ici je veux faire un calcul "add" sur mes paramètres
+        $this->calculator->add($a, $b, $c);
+    }
+
+}
+
+
