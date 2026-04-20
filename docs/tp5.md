@@ -55,8 +55,7 @@ Points d'entree possibles :
 - garder peu de tests e2e, mais des tests utiles.
 - avant d'ecrire un nouveau test e2e, faire un commit de l'etat courant ;
 - juste apres avoir redige le test, faire un second commit pour prouver la demarche TDD.
-- convention demandee pour les messages de commit :
-  `before test: ...` puis `after test: ...`.
+- convention demandee pour les messages de commit : `tests done: ...` puis `code done: ...`.
 
 ## Livrables
 

@@ -64,8 +64,8 @@ Test Driven Development : On écrit d'abord les tests, puis ensuite on fait le c
   - `Refactor`
 
 - preuve attendue dans Git :
-  - avant d'écrire un nouveau test : commit `before test: ...`
-  - juste après avoir rédigé le test : commit `after test: ...`
+  - après avoir écrit un nouveau test : commit `tests done: ...`
+  - après avoir fait le code : commit `code done: ...`
 
 
 ❓ quel est l'intérêt de faire les tests avant le code ?

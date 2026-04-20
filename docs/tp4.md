@@ -56,8 +56,7 @@ Par exemple :
 - choisir des scenarios qui font avancer le projet.
 - avant d'ecrire un nouveau test d'integration, faire un commit de l'etat courant ;
 - juste apres avoir redige le test, faire un second commit pour prouver la demarche TDD.
-- convention demandee pour les messages de commit :
-  `before test: ...` puis `after test: ...`.
+- convention demandee pour les messages de commit : `tests done: ...` puis `code done: ...`.
 
 ## Livrables
 

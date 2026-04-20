@@ -13,7 +13,7 @@ TDD et tests unitaires du coeur metier
 
 ## Contexte
 
-Jusqu'ici, vous avez surtout modele le domaine et liste les regles.
+Jusqu'ici, vous avez surtout modelise le domaine et liste les regles.
 
 Le but maintenant est de commencer l'implementation de l'application en partant du coeur metier, avec des tests unitaires sur plusieurs classes et pas seulement sur `Glace`.
 
@@ -60,7 +60,7 @@ Exemples de points a tester selon les classes choisies :
 - nommer clairement les cas verifies.
 - avant d'ecrire un nouveau test, faire un commit de l'etat courant ;
 - juste apres avoir redige le test, faire un second commit pour prouver la demarche TDD.
-- convention demandee pour les messages de commit : `before test: ...` puis `after test: ...`.
+- convention demandee pour les messages de commit : `tests done: ...` puis `code done: ...`.
 
 ## Livrables
 
