@@ -19,7 +19,9 @@
     },
     "scripts": {
         "test": "phpunit --configuration phpunit.xml",
-        "test:unit": "phpunit --configuration phpunit.xml --testsuite unit"
+        "test:unit": "phpunit --configuration phpunit.xml --testsuite unit",
+        "test:integration": "phpunit --configuration phpunit.xml --testsuite integration",
+        "test:e2e": "phpunit --configuration phpunit.xml --testsuite e2e"
     },
     "config": {
         "sort-packages": true

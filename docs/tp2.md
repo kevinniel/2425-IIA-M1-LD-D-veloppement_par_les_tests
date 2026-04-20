@@ -1,7 +1,6 @@
 
 - Glace
     - Identifiant
-        -> unique
         -> string (le nom !)
     - Temps de fabrication => temps de conception, réalisation, livraison etc...
         -> integer (stocké en ms)
